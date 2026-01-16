@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/GoogleKelompok/deploy.git
     targetRevision: HEAD
-    path: deploy
+    path: dev
   destination:
     server: https://kubernetes.default.svc
     namespace: default
